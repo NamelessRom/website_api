@@ -1,0 +1,78 @@
+#!/bin/bash
+#
+# initd a node app
+# Based on a script posted by https://gist.github.com/jinze at https://gist.github.com/3748766
+#
+
+# Source function library.
+. /lib/lsb/init-functions
+
+pidFile=/var/run/api.pid
+logFile=/var/run/api.log
+
+nodeApp=app.js
+
+start() {
+    echo "Starting $nodeApp"
+
+    # This is found in the library referenced at the top of the script
+    start_daemon
+
+    # Notice that we change the PATH because on reboot
+    # the PATH does not include the path to node.
+    # Launching forever with a full path
+    # does not work unless we set the PATH.
+    PATH=/usr/local/bin:$PATH
+    export NODE_ENV=production
+    #PORT=80
+    forever start --pidFile $pidFile -l $logFile -a -d $nodeApp
+    RETVAL=$?
+}
+
+update() {
+    echo "Updating..."
+    git fetch origin master && git reset --hard origin/master
+    restart
+}
+
+restart() {
+    echo "Restarting $nodeApp"
+    /usr/local/bin/forever restart $nodeApp
+    RETVAL=$?
+}
+
+stop() {
+    echo "Shutting down $nodeApp"
+    /usr/local/bin/forever stop $nodeApp
+    RETVAL=$?
+}
+
+status() {
+    echo "Status $nodeApp"
+    /usr/local/bin/forever list
+    RETVAL=$?
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status
+        ;;
+    restart)
+    restart
+        ;;
+    update)
+    update
+    ;;
+    *)
+        echo "Usage:  {start|stop|status|restart|update}"
+        exit 1
+        ;;
+esac
+
+exit $RETVAL
