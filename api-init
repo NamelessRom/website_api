@@ -10,7 +10,7 @@
 pidFile=/var/run/api.pid
 logFile=/var/run/api.log
 
-nodeApp=app.js
+nodeApp=bin/www
 
 start() {
     echo "Starting $nodeApp"
