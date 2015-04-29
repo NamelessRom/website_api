@@ -11,6 +11,18 @@
         main.deviceColumns = ["Codename", "Device", "n-1.0 (4.4.x)", "n-2.0 (5.0.x)", "n-2.1 (5.1.x)"];
         main.vendors = [
             {
+                "name": "LG",
+                "devices": [
+                    {
+                        "codename": "p880",
+                        "model": "LG Optimus 4X HD",
+                        "n_1_0": "true",
+                        "n_2_0": "true",
+                        "n_2_1": "true"
+                    }
+                ]
+            },
+            {
                 "name": "Nexus",
                 "devices": [
                     {
