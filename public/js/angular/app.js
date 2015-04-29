@@ -2,7 +2,7 @@
  * Created by alex on 13.10.14.
  */
 (function () {
-    var app = angular.module('interface', []);
+    var app = angular.module('interface', ['device']);
 
     app.directive('navigationBar', function () {
         return {
