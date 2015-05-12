@@ -80,7 +80,7 @@
                         "model": "Samsung Galaxy S3",
                         "n_1_0": "true",
                         "n_2_0": "true",
-                        "n_2_1": "false"
+                        "n_2_1": "true"
                     },
                     {
                         "codename": "i9305",
