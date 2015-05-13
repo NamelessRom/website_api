@@ -94,7 +94,7 @@
                         "model": "Samsung Note 2",
                         "n_1_0": "true",
                         "n_2_0": "true",
-                        "n_2_1": "false"
+                        "n_2_1": "true"
                     },
                     {
                         "codename": "t0lte",
