@@ -37,7 +37,7 @@
                         "model": "Nexus 4",
                         "n_1_0": "true",
                         "n_2_0": "true",
-                        "n_2_1": "false"
+                        "n_2_1": "true"
                     }
                 ]
             },
