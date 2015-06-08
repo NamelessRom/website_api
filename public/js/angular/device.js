@@ -111,6 +111,18 @@
                         "n_2_1": "false"
                     }
                 ]
+            },
+            {
+                "name": "YU",
+                "devices": [
+                    {
+                        "codename": "tomato",
+                        "model": "YU Yureka",
+                        "n_1_0": "false",
+                        "n_2_0": "false",
+                        "n_2_1": "true"
+                    }
+                ]
             }
         ];
     });
