@@ -19,6 +19,13 @@
                         "n_1_0": "true",
                         "n_2_0": "true",
                         "n_2_1": "true"
+                    },
+                    {
+                        "codename": "w5",
+                        "model": "LG L70 (unified)",
+                        "n_1_0": "false",
+                        "n_2_0": "false",
+                        "n_2_1": "true"
                     }
                 ]
             },
