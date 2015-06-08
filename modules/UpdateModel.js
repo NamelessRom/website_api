@@ -31,17 +31,17 @@ function getModel(mongoose) {
 
     Update.path('downloadurl').validate(function (v) {
         console.log("validate downloadurl: " + v);
-        return v && v.length > 2 && v.length < 250;
+        return v && v.length > 10 && v.length < 250;
     });
 
     Update.path('timestamp').validate(function (v) {
         console.log("validate timestamp: " + v);
-        return v && v.length > 2 && v.length < 250;
+        return v && v.length == 8 && v.length < 250;
     });
 
     Update.path('codename').validate(function (v) {
         console.log("validate codename: " + v);
-        return v && v.length > 2 && v.length < 250;
+        return v && v.length > 1 && v.length < 250;
     });
 
     return mongoose.model('Update', Update);
