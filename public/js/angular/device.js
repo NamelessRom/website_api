@@ -94,7 +94,7 @@
                         "model": "Samsung Galaxy S3 LTE",
                         "n_1_0": "true",
                         "n_2_0": "true",
-                        "n_2_1": "false"
+                        "n_2_1": "true"
                     },
                     {
                         "codename": "n7100",
