@@ -40,6 +40,14 @@
                     <td ng-show="!{{device.n_2_1}}">
                         <i class="mdi-toggle-check-box-outline-blank"></i>
                     </td>
+                    <td ng-show="{{device.n_3_0}}">
+                        <a href="{{deviceCtrl.baseUrl}}/n-3.0/{{device.codename}}" target="_blank">
+                            <i class="mdi-toggle-check-box" title="Download n-3.0 for {{device.model}} ({{device.codename}})"></i>
+                        </a>
+                    </td>
+                    <td ng-show="!{{device.n_3_0}}">
+                        <i class="mdi-toggle-check-box-outline-blank"></i>
+                    </td>
                 </tr>
                 </tbody>
             </table>
