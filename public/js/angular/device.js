@@ -83,6 +83,14 @@
                         "n_2_0": "true",
                         "n_2_1": "true",
                         "n_3_0": "false"
+                    },
+                    {
+                        "codename": "r7plus",
+                        "model": "OPPO R7 Plus",
+                        "n_1_0": "false",
+                        "n_2_0": "false",
+                        "n_2_1": "false",
+                        "n_3_0": "true"
                     }
                 ]
             },
