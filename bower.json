@@ -1,0 +1,22 @@
+{
+  "name": "nameless-rom.org",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alexander Martinz <eviscerationls@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "nameless-rom.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.3"
+  }
+}
