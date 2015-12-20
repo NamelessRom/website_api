@@ -1,0 +1,33 @@
+{
+  "name": "nameless-rom.org",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alexander Martinz <eviscerationls@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "nameless-rom.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.3",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0",
+    "page": "visionmedia/page.js#~1.6.4",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+    "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
+    "paper-menu": "PolymerElements/paper-menu#^1.2.1",
+    "paper-datatable": "~0.9.4"
+  },
+  "resolutions": {
+    "polymer": "^1.2.3",
+    "webcomponentsjs": "^0.7.18"
+  }
+}
