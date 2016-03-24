@@ -111,7 +111,7 @@
                         "n_1_0": "true",
                         "n_2_0": "true",
                         "n_2_1": "true",
-                        "n_3_0": "false"
+                        "n_3_0": "true"
                     },
                     {
                         "codename": "i9305",
