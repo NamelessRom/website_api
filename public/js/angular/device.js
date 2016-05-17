@@ -149,6 +149,14 @@
                         "n_2_0": "false",
                         "n_2_1": "true",
                         "n_3_0": "true"
+                    },
+                    {
+                        "codename": "lettuce",
+                        "model": "YU Yuphoria",
+                        "n_1_0": "false",
+                        "n_2_0": "false",
+                        "n_2_1": "false",
+                        "n_3_0": "true"
                     }
                 ]
             }
