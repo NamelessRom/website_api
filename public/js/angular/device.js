@@ -70,6 +70,14 @@
                         "n_2_0": "false",
                         "n_2_1": "false",
                         "n_3_0": "true"
+                    },
+                    {
+                        "codename": "oneplus3",
+                        "model": "OnePlus Three",
+                        "n_1_0": "false",
+                        "n_2_0": "false",
+                        "n_2_1": "false",
+                        "n_3_0": "true"
                     }
                 ]
             },
